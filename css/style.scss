@@ -23,23 +23,25 @@ body {
   }
   header {
     height: 4rem;
+    display: flex;
   }
 
   h1 {
-    position: relative;
+    left: 10px;
+    font-size: large;
+    padding: 10px;
   }
   nav a {
     display: none;
   }
   .mobiel {
-    display: flex;
+    right: 10px;
   }
 
   .billboard {
     color: white;
-    margin-top: 10px;
-    padding-bottom: 1.5rem;
-    padding-top: 2rem;
+    margin-top: 5px;
+
     grid-template-rows: 1fr;
     height: 70px;
     background-image: url("./images/achtergrond-nacht.png");
@@ -47,12 +49,22 @@ body {
     background-position: center;
   }
   .billboard h2 {
+    padding-top: 15px;
     font-weight: bold;
-    font-size: 13px;
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  .billboard p {
   }
 
   div p {
     font-style: italic;
+    font-size: 11px;
+    margin: 5px auto 10px auto;
+  }
+
+  section h3 {
+    font-weight: bold;
   }
 
   .hoofding h2 {
@@ -65,11 +77,12 @@ body {
     border: none;
     color: white;
     background-color: black;
+    margin-bottom: 15px;
   }
   .figuur1 {
     background-color: #56e39f;
     margin: 10px 5px 5px 5px;
-    height: 150px;
+    height: 200px;
   }
   .figuur1 > div:nth-child(1) {
     background-color: #56e39f;
@@ -87,7 +100,7 @@ body {
   .figuur2 {
     background-color: #f1d302;
     margin: 30px 5px 5px 5px;
-    height: 150px;
+    height: 200px;
   }
   .figuur2 > div:nth-child(1) {
     background-color: #56e39f;
@@ -105,7 +118,7 @@ body {
   .figuur3 {
     background-color: #b3001b;
     margin: 30px 5px 5px 5px;
-    height: 150px;
+    height: 200px;
   }
   .figuur3 > div:nth-child(1) {
     background-color: #b3001b;
@@ -123,7 +136,7 @@ body {
   .figuur4 {
     background-color: #ff715b;
     margin: 30px 5px 5px 5px;
-    height: 150px;
+    height: 200px;
   }
   .figuur4 > div:nth-child(1) {
     background-color: #ff715b;
