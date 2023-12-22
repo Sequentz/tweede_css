@@ -21,8 +21,55 @@ body {
   * {
     line-height: calc(2px + 2ex + 2px);
   }
+  header {
+    height: 4rem;
+  }
+
+  h1 {
+    position: relative;
+  }
+  nav a {
+    display: none;
+  }
+  .mobiel {
+    display: flex;
+  }
+
+  .billboard {
+    color: white;
+    margin-top: 10px;
+    padding-bottom: 1.5rem;
+    padding-top: 2rem;
+    grid-template-rows: 1fr;
+    height: 70px;
+    background-image: url("./images/achtergrond-nacht.png");
+    background-size: cover;
+    background-position: center;
+  }
+  .billboard h2 {
+    font-weight: bold;
+    font-size: 13px;
+  }
+
+  div p {
+    font-style: italic;
+  }
+
+  .hoofding h2 {
+    font-weight: bold;
+    font-size: 13px;
+    padding-top: 1.5rem;
+  }
+
+  input {
+    border: none;
+    color: white;
+    background-color: black;
+  }
   .figuur1 {
     background-color: #56e39f;
+    margin: 10px 5px 5px 5px;
+    height: 150px;
   }
   .figuur1 > div:nth-child(1) {
     background-color: #56e39f;
@@ -39,6 +86,8 @@ body {
   /* alle kleuren voor dit vlak: #56E39F  #59C9A5  #5B6C5D  #27476E*/
   .figuur2 {
     background-color: #f1d302;
+    margin: 30px 5px 5px 5px;
+    height: 150px;
   }
   .figuur2 > div:nth-child(1) {
     background-color: #56e39f;
@@ -55,6 +104,8 @@ body {
   /* alle kleuren voor dit vlak: #F1D302  #C1292E  #235789  #F0A202 */
   .figuur3 {
     background-color: #b3001b;
+    margin: 30px 5px 5px 5px;
+    height: 150px;
   }
   .figuur3 > div:nth-child(1) {
     background-color: #b3001b;
@@ -71,6 +122,8 @@ body {
   /* alle kleuren voor dit vlak: #B3001B  #F4E04D  #54F2F2  #5EB1BF */
   .figuur4 {
     background-color: #ff715b;
+    margin: 30px 5px 5px 5px;
+    height: 150px;
   }
   .figuur4 > div:nth-child(1) {
     background-color: #ff715b;
@@ -85,4 +138,33 @@ body {
     background-color: #ec058e;
   }
   /* alle kleuren voor dit vlak: #FF715B  #30332E  #62BBC1  #EC058E */
+}
+.section1 h3 {
+  font-weight: bold;
+}
+footer {
+  color: white;
+  margin-top: 10px;
+  padding-top: 1rem;
+  text-align: center;
+  grid-template-rows: 1fr;
+  height: 70px;
+  background-color: black;
+}
+
+footer p {
+  margin: 3px;
+}
+
+.logo {
+  display: grid;
+  font-weight: bold;
+  font-size: 13px;
+}
+footer li a {
+  color: white;
+  text-decoration: none;
+}
+footer li {
+  display: inline;
 }
