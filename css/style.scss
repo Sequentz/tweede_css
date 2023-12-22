@@ -22,8 +22,9 @@ body {
     line-height: calc(2px + 2ex + 2px);
   }
   header {
-    height: 4rem;
+    height: 7rem;
     display: flex;
+    padding: 10px;
   }
 
   h1 {
@@ -43,29 +44,37 @@ body {
     margin-top: 5px;
     padding-left: 5px;
     grid-template-rows: 1fr;
-    height: 70px;
+    height: 120px;
     background-image: url("./images/achtergrond-nacht.png");
     background-size: cover;
     background-position: center;
+    box-sizing: border-box;
   }
   .billboard h2 {
-    padding-top: 15px;
+    padding-top: 3.5rem;
     font-weight: bold;
     font-size: 15px;
-    margin-bottom: 5px;
+    margin-bottom: 1.5rem;
   }
 
   .billboard p {
     font-style: italic;
-    font-size: 11px;
-    margin: 5px auto 10px auto;
+    font-size: 12px;
   }
   .overons {
+    margin-left: 10px;
+  }
+  .watwedoen {
     margin-left: 10px;
   }
 
   section h3 {
     font-weight: bold;
+    margin-left: 1px;
+  }
+  section p {
+    margin-bottom: 4rem;
+    margin-left: 1px;
   }
 
   .hoofding h2 {
@@ -87,7 +96,7 @@ body {
   }
   .figuur1 {
     background-color: #56e39f;
-    margin: 10px 5px 5px 5px;
+    margin: 10px 10px 5px 0px;
     height: 200px;
   }
   .figuur1 > div:nth-child(1) {
@@ -105,7 +114,7 @@ body {
   /* alle kleuren voor dit vlak: #56E39F  #59C9A5  #5B6C5D  #27476E*/
   .figuur2 {
     background-color: #f1d302;
-    margin: 30px 5px 5px 5px;
+    margin: 5px 10px 5px 0px;
     height: 200px;
   }
   .figuur2 > div:nth-child(1) {
@@ -123,7 +132,7 @@ body {
   /* alle kleuren voor dit vlak: #F1D302  #C1292E  #235789  #F0A202 */
   .figuur3 {
     background-color: #b3001b;
-    margin: 30px 5px 5px 5px;
+    margin: 5px 10px 5px 0px;
     height: 200px;
   }
   .figuur3 > div:nth-child(1) {
@@ -141,7 +150,7 @@ body {
   /* alle kleuren voor dit vlak: #B3001B  #F4E04D  #54F2F2  #5EB1BF */
   .figuur4 {
     background-color: #ff715b;
-    margin: 30px 5px 5px 5px;
+    margin: 5px 10px 10px 0px;
     height: 200px;
   }
   .figuur4 > div:nth-child(1) {
